@@ -1,0 +1,20 @@
+@import "tailwindcss";
+.active hr{
+  display: block;
+}
+.grid-cols-auto{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.active hr{
+  display: block;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.grid-cols-auto{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
